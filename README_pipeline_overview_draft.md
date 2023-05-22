@@ -1,4 +1,4 @@
-# Viral Variant Pipeline Overview
+# VariantValet Pipeline Overview
 
 This repository contains a pipeline for processing and analyzing viral variant data from FASTQ files. The pipeline integrates various scripts and tools to filter sequences, bin amplicon reads by variant, and generate consensus sequences using a pretrained neural network model provided by Medaka. Pipeline was designed for SARS-CoV-2 S gene long-read Oxford Nanopore (R.10.4.1 Flow Cell) amplicons.
 
