@@ -26,6 +26,6 @@ This repository is a work in progress, and we welcome feedback and contributions
 
 ## Contact
 
-If you have any questions or run into any issues, please feel free to contact us.
+If you have any questions or run into any issues, please feel free to contact us at dpl65@nau.edu
 
 
