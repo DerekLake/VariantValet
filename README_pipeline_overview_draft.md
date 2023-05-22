@@ -4,7 +4,7 @@ This repository contains a pipeline for processing and analyzing viral variant d
 
 ## Overview of the Pipeline
 
-1. **Sequence Filtering - `Filter_by_length.py`**: This script filters sequences from a FASTQ file based on their length. It outputs a new FASTQ file containing only the sequences that meet the specified length criteria.
+1. **Sequence Filtering - `Filter_by_length.py`**: This script filters sequences from a FASTQ file based on their length. It outputs three new FASTQ files containing reads corresponding to certain lengths that are supplied by an argument. (ex: reads are filtered to 3 fastq files containing reads <4000bp, betweeen 4000-4200 bp, and over 4200 bp. It also supplies the read count within each fastq file.
 
 2. **Variant Binning - `VariantValet.py`**: This Python script implements a binning algorithm to categorize viral variant-specific amplicons by haplotype from a wastewater sample containing multiple variants, using point mutations as a basis for differentiation.
 
